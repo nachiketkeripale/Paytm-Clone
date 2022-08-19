@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        module.exports = {
+            theme: {
+                colors: {
+                    'mygray' : '#f5f7fa'
+                        },
+                    },
+            }
+    </script>
+    <title>TESTING </title>
+</head>
+<body>
+
+    <header class="flex flex-row w-auto  justify-between">
+        <div class="mt-2 ml-2 md:hidden">
+            <label tabindex="0" class="btn btn-ghost btn-circle">
+            <span class="hamburgerMenu text-xl">☰</span>
+          </label>
+        </div>
+        <div>
+            <img class="w-[150px] md:max-w-[200px]"src="assets/paytm_logo.png" alt="">
+        </div>
+        <div class="hidden md:flex flex-row justify-around">
+            <ul class="flex flex-row gap-5 mt-4 text-base ">
+                <li>Paytm for Consumer</li>
+                <li>Paytm For Business</li>
+                <li>Company</li>
+                <li>Investor Relations</li>
+                <li>Career</li>
+            </ul>
+        </div>
+        <div class="bg-cyan-500 py-1 pl-5 pr-2 mt-1 mr-3 text-xs text-white flex items-center rounded-3xl">Log in
+            <img src="./assets/login.svg" class="ml-1 w-8" alt="">
+        </div>
+    </header>
+
+    <div class="text-sm text-center bg-zinc-300 mt-4 p-1 md:w-full md:text-base">
+        <h4>No Wallet KYC Required😊to pay using UPI on Paytm.Learn more.</h4>
+    </div>
+
+    <!--HERO SECTION-->
+    <div class="flex flex-col mt-10 md:w-full md:flex-row">
+        <div class="w-[100%] p-4 md:w-[50%]">
+            <img class="w-[10%] md:mx-0 mx-auto items-center" src="./assets/patymherosection.png" alt="">
+            <h1 class="text-2xl pt-2 w-fit md:mx-0 mx-auto items-center md:text-6xl text-black font-bold">India's Most-loved Payments App</h1>
+            <h3 class="text-1xl pt-2 w-fit md:mx-0 mx-auto items-center md:text-2xl text-black">Recharge & pay bills, book flights & movie tickets, open a savings account, invest in stocks & mutual funds, and do a lot more.</h3>
+            <div class="bg-black flex w-fit md:mx-0 mx-auto items-center text-white font-semibold mt-10 py-3 px-8 rounded-full cursor-pointer hover:text-black hover:bg-white border border-black border-solid">
+                Download Paytm App
+                
+                <svg class="ml-3" width="14" height="16" viewBox="0 0 14 16" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z" fill="currentColor"></path>
+                </svg>
+               
+                <svg width="14" height="16" class="ml-3" viewBox="0 0 14 16" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.088012 0.571735C0.0310801 0.726729 0 0.910797 0 1.121V14.8786C0 15.0894 0.0311427 15.2736 0.0881839 15.4286L7.32808 7.9997L0.088012 0.571735ZM0.590122 15.9564C0.85223 16.0466 1.18264 15.9995 1.54068 15.7912L10.0736 10.8165L7.83627 8.52109L0.590122 15.9564ZM10.7221 10.4391L13.3647 8.8987C14.2118 8.40415 14.2118 7.59609 13.3647 7.10217L10.7211 5.561L8.34443 7.99966L10.7221 10.4391ZM10.073 5.18317L1.54068 0.209061C1.18252 0.000250885 0.852017 -0.0466058 0.589868 0.0438429L7.83624 7.47828L10.073 5.18317Z" fill="currentColor">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <div class="w-[100%] md:w-[50%]">
+            <img class="w-[80%] md:mx-0 mx-auto items-right"src="./assets/herosectionimg.webp" alt="">
+        </div>
+    </div>
+
+    <!--SECTION 1-->
+    <section class="flex flex-col mt-10">
+        <!--SUB SECTION 1-->
+        <div class="w-full bg-sky-500/100 p-10">
+            <h1 class="text-center text-white text-2xl font-bold md:text-left md:text-3xl">Recharge & Pay Bills on Paytm.</h1>
+            <div class="w-full overflow-x-auto">
+                <ul class="flex justify-between x-auto md:flex-row gap-10">
+
+                    <li class="flex flex-col w-24 my-4 mx-4 pl-4 pr-4 py-2 text-white font-bold hover:bg-cyan-700 hover:rounded-xl hover:shadow-md">
+                        <img class="md:w-16" src="./assets/section1li1.png" alt="">
+                        <div class="p-2">
+                        <p class="text-center text-sm mt-2 inline">Recharge & Pay Bills on Paytm. <span class="right-arrow">&gt;
+                        </span></p>
+                        </div>
+                    </li>
+
+                    <li class="flex flex-col w-24 my-4 mx-4 pl-4 pr-4 py-2 text-white font-bold hover:bg-cyan-700 hover:rounded-xl hover:shadow-md">
+                        <img class="w-16" src="./assets/section1li2.png" alt="">
+                        <div class="p-2">
+                        <p class="text-center text-sm  mt-2 inline">Pay Rent Payment <span class="right-arrow">&gt;
+                        </span></p>
+                        </div>
+                    </li>
+
+                    <li class="flex flex-col w-24 my-4 mx-4 pl-4 pr-4 py-2 text-white font-bold hover:bg-cyan-700 hover:rounded-xl hover:shadow-md">
+                        <img class="w-16" src="./assets/section1li3.png" alt="">
+                        <div class="p-2">
+                        <p class="text-center text-sm  mt-2 inline">Pay Electricity Bill <span class="right-arrow">&gt;
+                        </span></p>
+                        </div>
+                    </li>
+
+                    <li class="flex flex-col w-24 my-4 mx-4 pl-4 pr-4 py-2 text-white font-bold hover:bg-cyan-700 hover:rounded-xl hover:shadow-md">
+                        <img class="w-16" src="./assets/section1li4.png" alt="">
+                        <div class="p-2">
+                        <p class="text-center text-sm  mt-2 inline">Recharge DTH Connection <span class="right-arrow">&gt;
+                        </span></p>
+                        </div>
+                    </li>
+
+                    <li class="flex flex-col w-24 my-4 mx-4 pl-4 pr-4 py-2 text-white font-bold hover:bg-cyan-700 hover:rounded-xl hover:shadow-md">
+                        <img class="w-16" src="./assets/section1li5.png" alt="">
+                        <div class="p-2">
+                        <p class="text-center text-sm  mt-2 inline">Book Gas Cylinder <span class="right-arrow">&gt;
+                        </span></p>
+                        </div> 
+                    </li>
+
+                    <li class="flex flex-col w-24 my-4 mx-4 pl-4 pr-4 py-2 text-white font-bold hover:bg-cyan-700 hover:rounded-xl hover:shadow-md">
+                        <img class="w-16" src="./assets/section1li6.png" alt="">
+                        <div class="p-2">
+                        <p class="text-center text-sm mt-2 inline">Pay Credit Card Bill <span class="right-arrow">&gt;
+                        </span></p>
+                        </div>
+                    </li>
+
+                    <li class="flex flex-col w-24 my-4 mx-4 pl-4 pr-4 py-2 text-white font-bold hover:bg-cyan-700 hover:rounded-xl hover:shadow-md">
+                        <img class="w-16" src="./assets/section1li7.png" alt="">
+                        <div class="p-2">
+                        <p class="text-center text-sm w-auto mt-2 inline">All Payment Services <span class="right-arrow">&gt;
+                        </span></p>
+                        </div>
+                    </li>
+
+
+                </ul>
+
+                
+            </div>
+        </div>
+
+        <!--SUB SECTION 2-->
+        <div class="w-full bg-blue-900 p-10">
+            <h1 class="text-center text-white text-2xl font-bold md:text-left md:text-3xl">Book & Buy on Paytm.</h1>
+            <div class="w-full overflow-x-auto">
+                <ul class="flex justify-between x-auto md:flex-row gap-10">
+
+                    <li class="flex flex-col w-24 my-4 mx-4 pl-4 pr-4 py-2 text-white font-bold hover:bg-cyan-700 hover:rounded-xl hover:shadow-md">
+                        <img class="w-16" src="./assets/section1li8.png" alt="">
+                        <div class="p-2">
+                        <p class="text-center text-sm w-auto mt-2 inline">Movie Tickets.<span class="right-arrow">&gt;
+                        </span></p>
+                        </div>
+                    </li>
+
+                    <li class="flex flex-col w-24 my-4 mx-4 pl-4 pr-4 py-2 text-white font-bold hover:bg-cyan-700 hover:rounded-xl hover:shadow-md">
+                        <img class="w-16" src="./assets/section1li9.png" alt="">
+                        <div class="p-2">
+                        <p class="text-center text-sm w-auto mt-2 inline">Flight Tickets <span class="right-arrow">&gt;
+                        </span></p>
+                        </div>
+                    </li>
+
+                    <li class="flex flex-col w-24 my-4 mx-4 pl-4 pr-4 py-2 text-white font-bold hover:bg-cyan-700 hover:rounded-xl hover:shadow-md">
+                        <img class="w-16" src="./assets/section1li10.png" alt="">
+                        <div class="p-2">
+                        <p class="text-center text-sm w-auto mt-2 inline">Bus Tickets <span class="right-arrow">&gt;
+                        </span></p>
+                        </div>
+                    </li>
+
+                    <li class="flex flex-col w-24 my-4 mx-4 pl-4 pr-4 py-2 text-white font-bold hover:bg-cyan-700 hover:rounded-xl hover:shadow-md">
+                        <img class="w-16" src="./assets/section1li11.png" alt="">
+                        <div class="p-2">
+                        <p class="text-center text-sm w-auto mt-2 inline">Train Tickets <span class="right-arrow">&gt;
+                        </span></p>
+                        </div>
+                    </li>
+
+                    <li class="flex flex-col w-24 my-4 mx-4 pl-4 pr-4 py-2 text-white font-bold hover:bg-cyan-700 hover:rounded-xl hover:shadow-md">
+                        <img class="w-16" src="./assets/section1li12.png" alt="">
+                        <div class="p-2">
+                        <p class="text-center text-sm w-auto mt-2 inline">Car & Bikes <span class="right-arrow">&gt;
+                        </span></p>
+                        </div>
+                    </li>
+
+                    <li class="flex flex-col w-24 my-4 mx-4 pl-4 pr-4 py-2 text-white font-bold hover:bg-cyan-700 hover:rounded-xl hover:shadow-md">
+                        <img class="w-16" src="./assets/section1li13.png" alt="">
+                        <div class="p-2">
+                        <p class="text-center text-sm w-auto mt-2 inline">International Flights <span class="right-arrow">&gt;
+                        </span></p>
+                        </div>
+                    </li>
+
+                    <li class="flex flex-col w-24 my-4 mx-4 pl-4 pr-4 py-2 text-white font-bold hover:bg-cyan-700 hover:rounded-xl hover:shadow-md">
+                        <img class="w-16" src="./assets/section1li14.webp" alt="">
+                        <div class="p-2">
+                        <p class="text-center text-sm w-auto mt-2 inline">Invest in Stocks <span class="right-arrow">&gt;
+                        </span></p>
+                        </div> 
+                    </li>
+
+
+                </ul>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!--SECTION 2-->
+    <section class="bg-gray-200 flex flex-col pt-10 ">
+        <h1 class="text-center text-2xl font-bold md:ml-16 md:mt-16 md:text-left md:text-5xl">Paytm Payment Instruments</h1>
+         <div class="bg-white rounded-xl flex flex-col md:mt-5 md:container md:m-auto md:w-full md:flex-row">
+            <div class="w-[100%] p-4 md:w-[50%]">
+                <img class="w-[20%] md:mx-0 mx-auto items-center" src="./assets/section2image1.png" alt="">
+                <h1 class="text-2xl pt-2 w-fit md:mx-0 mx-auto items-center md:text-3xl text-black font-bold">The Fastest Way to Pay In-store & Online.</h1>
+                <h3 class="text-1xl pt-2 w-fit md:mx-0 mx-auto items-center md:text-xl text-black">Load up your Paytm Wallet for free and make payments in a jiffy at over 21 million stores, websites and app</h3>
+                <div class="bg-black flex w-fit md:mx-0 mx-auto items-center text-white font-semibold mt-10 py-3 px-8 rounded-full cursor-pointer hover:text-black hover:bg-white border border-black border-solid">
+                    Download Paytm App
+                    
+                    <svg class="ml-3" width="14" height="16" viewBox="0 0 14 16" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z" fill="currentColor"></path>
+                    </svg>
+                   
+                    <svg width="14" height="16" class="ml-3" viewBox="0 0 14 16" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.088012 0.571735C0.0310801 0.726729 0 0.910797 0 1.121V14.8786C0 15.0894 0.0311427 15.2736 0.0881839 15.4286L7.32808 7.9997L0.088012 0.571735ZM0.590122 15.9564C0.85223 16.0466 1.18264 15.9995 1.54068 15.7912L10.0736 10.8165L7.83627 8.52109L0.590122 15.9564ZM10.7221 10.4391L13.3647 8.8987C14.2118 8.40415 14.2118 7.59609 13.3647 7.10217L10.7211 5.561L8.34443 7.99966L10.7221 10.4391ZM10.073 5.18317L1.54068 0.209061C1.18252 0.000250885 0.852017 -0.0466058 0.589868 0.0438429L7.83624 7.47828L10.073 5.18317Z" fill="currentColor">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <div class="w-[100%] md:w-[50%]">
+                <img class="w-[80%] md:mx-0 mx-auto items-right" src="./assets/section2image2.webp" alt="">
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
